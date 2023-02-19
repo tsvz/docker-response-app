@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/health/")
+@RequestMapping("/health")
 public class BaseRestController {
     private static final String RESPONSE_MESSAGE = "OK";
     @ResponseStatus(HttpStatus.OK)
